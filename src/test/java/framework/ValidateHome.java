@@ -28,7 +28,7 @@ public class ValidateHome extends Base{
 		HomeObjects home = new HomeObjects(driver);
 		
 		test.info("Comparing Title");
-		Assert.assertEquals(home.getTitle().getText(),"FEATURED COURSES123");
+		Assert.assertEquals(home.getTitle().getText(),"FEATURED COURSES");
 		Thread.sleep(5000);
 		test.pass("Comparison successfull");
 		
